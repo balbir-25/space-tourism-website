@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 1340px;
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* ===========================START MAIN AREA============================ */
+#site {
+  padding: 3rem 0rem;
+}
+
+/* =========NAV AREA========== */
+
+#bar {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.logo {
+  width: fit-content;
+  height: fit-content;
+}
+
+#ham {
+  display: none;
+}
+
+.line {
+  width: 20rem;
+  position: absolute;
+  height: 2px;
+  background-color: grey;
+  z-index: 0;
+  margin-left: 15rem;
+}
+
+#bar-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: rgb(49, 49, 67);
+  padding: 2rem 2rem 0rem 2rem;
+  gap: 2rem;
+  width: 100%;
+  margin-left: 26rem;
+}
+
+.bar-li {
+  margin-left: 3rem;
+}
+
+.li-a {
+  text-decoration: none;
+  color: rgb(193, 165, 165);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Teko";
+  font-size: 1.1rem;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.li-a b {
+  font-size: 1.3rem;
+  margin-right: 0.8rem;
+  color: white;
+}
+
+.bar-li.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 2rem;
+}
+
+/* ============START SECTION AREA=========== */
+
+#content {
+  margin-top: 5rem;
+  padding: 5rem;
+}
+
+.con-span {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Teko";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 3rem;
+}
+
+.con-span b {
+  color: grey;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.info-image {
+  margin-top: 3rem;
+}
+
+.planet {
+  position: relative;
+  animation: rotate 30S infinite linear;
+  transform-origin: center center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 8rem;
+}
+
+.detail-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.detail-a {
+  color: grey;
+  font-family: "Teko";
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.detail-a.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+#name {
+  font-weight: 400;
+  font-family: "Teko";
+  font-size: 4rem;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+#para {
+  font-weight: 400;
+  font-family: "Teko";
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color: grey;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  width: 355px;
+}
+
+hr {
+  margin-top: 5rem;
+  border: 1px solid grey;
+}
+
+.travel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.space {
+  gap: 2rem;
+}
+
+.space-span {
+  color: grey;
+  font-weight: 400;
+  font-family: "Teko";
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.space-h2 {
+  color: white;
+  font-weight: 700;
+  font-family: "Teko";
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===========================END MAIN AREA============================ */
+/* =============================START FOOTER  AREA=========================== */
+.foot {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(240, 10%, 16%);
+}
+
+.foot a {
+  text-decoration: none;
+  color: hsl(39, 100%, 56%);
+}
+
+.foot a:hover {
+  color: hsl(300, 69%, 71%);
+}
+/* =============================END FOOTER  AREA=========================== */
+
+/* ======START MEDIA QUERY=========== */
+
+/* =======768PX=========== */
+
+@media screen and (max-width: 768px) {
+  body {
+    min-width: 768px;
+    background-image: url(../assets/destination/background-destination-tablet.jpg);
+  }
+
+  #bar {
+    padding-left: 2rem;
+    gap: 2rem;
+  }
+
+  .line {
+    display: none;
+  }
+
+  #bar-ul {
+    margin-left: 1rem;
+    gap: 1rem;
+    padding: 2rem 0rem 0rem 1rem;
+    width: 100%;
+  }
+
+  .bar-li {
+    margin-left: 1rem;
+  }
+
+  .li-a {
+    font-size: 1rem;
+  }
+
+  .li-a b{
+    display: none;
+  }
+
+  #content {
+   text-align: center;
+  }
+
+  .info {
+    flex-direction: column;
+    margin-top: 8rem;
+  }
+
+  .detail {
+    margin-top: 3rem;
+  }
+
+  .detail-menu {
+    position: absolute;
+    margin-top: -600px;
+  }
+}
+
+/* ========375px============ */
+@media screen and (max-width: 370px) {
+  body {
+    min-width: 370px;
+    background-image: url(../assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+  }
+
+  #site{
+    width: 100%;
+  }
+
+  #bar {
+    justify-content: space-between;
+  }
+
+  .overlay {
+    position: fixed;
+    z-index: 2;
+    top: 10rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    backdrop-filter: blur(6px);
+    transition: 0.3s;
+  }
+
+  #ham {
+    display: grid;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+  }
+
+  #ham img:last-child {
+    display: none;
+  }
+
+  body.open #ham img:first-child {
+    display: none;
+  }
+
+  body.open #ham img:last-child {
+    display: block;
+  }
+
+  body.open .overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #bar-ul {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    top: 10rem;
+    width: 100%;
+    height: auto;
+    padding: 2rem 5rem;
+    background: black;
+    translate: 100% 0;
+    transition: 0.5s;
+    text-align: center;
+  }
+
+  body.open #bar-ul {
+    translate: 0;
+  }
+
+  .li-a {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .bar-li.active {
+    border-color: grey;
+    padding-bottom: 1rem;
+  }
+
+  /* ===SECTION AREA=== */
+
+  #content {
+    padding: 5rem 1rem;
+    width: 100%;
+  }
+
+  .detail {
+    margin-left: 1rem;
+  }
+
+  .detail-menu {
+    margin-top: -450px;
+  }
+
+  #pic {
+    width: 90%;
+  }
+
+  #para {
+    font-size: 1rem;
+    width: 320px;
+  }
+
+  .con-span {
+    font-size: 1.2rem;
+    margin-left: 0rem;
+  }
+
+  .space-h2 {
+    margin-top: 1.5rem;
+  }
+}

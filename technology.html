@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/technology.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <!-- ===================START MAIN AREA========== -->
+    <main id="site">
+      <!-- =============START NAV AREA========= -->
+      <nav id="bar">
+        <img src="./assets/shared/logo.svg" alt="LOGO" class="logo" />
+        <div class="line"></div>
+        <div class="overlay"></div>
+        <button id="ham" onclick="toggleMenu()">
+      <img src="./assets/shared/icon-hamburger.svg" alt="open" id="open">
+       <img src="./assets/shared/icon-close.svg" alt="close" id="close">
+   </button>
+        <ul id="bar-ul">
+          <li class="bar-li">
+            <a href="./index.html" class="li-a"><b>00</b> Home</a>
+          </li>
+          <li class="bar-li">
+            <a href="./destination.html" class="li-a"><b>01</b>Destination</a>
+          </li>
+          <li class="bar-li">
+            <a href="./crew.html" class="li-a"><b>02</b>Crew</a>
+          </li>
+          <li class="bar-li">
+            <a href="./technology.html" class="li-a"><b>03</b>Technology</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ============START SECTION AREA========= -->
+      <section id="content">
+        <span class="con-span"><b>03</b> Space launch 101</span>
+        <div class="info">
+          <div class="tech-menu">
+            <a class="tech-a" id="one">1</a>
+            <a class="tech-a" id="two">2</a>
+            <a class="tech-a" id="three">3</a>
+          </div>
+          <div class="detail">
+            <span class="detail-span">The terminology...</span>
+            <h1 id="name"></h1>
+            <p id="para"></p>
+          </div>
+          <div class="info-image">
+            <img src="" alt="Technology" id="pic">
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- =====================END MAIN AREA========== -->
+    <!-- ================================START FOOTER AREA====================== -->
+    <footer class="foot">
+      Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a>. Coded by
+      <a href="http://balbir-portfolio.liveblog365.com/" target="_blank"
+        >Balbir Singh</a>.</footer>
+    <!-- ================================END FOOTER AREA========================= -->
+    <script src="./js/technology.js"></script>
+  </body>
+</html>
