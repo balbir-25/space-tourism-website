@@ -16,7 +16,7 @@ crewNavItem.classList.add('active');
 
 // fetch data
 
-const list = fetch("https://balbir-25.github.io/repository/data.json").then((response) => {
+const list = fetch("https://balbir-25.github.io/space-tourism-website/data.json").then((response) => {
     return response.json();
 })
 
