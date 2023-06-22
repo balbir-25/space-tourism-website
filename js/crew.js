@@ -1,13 +1,13 @@
 const toggleMenu = () => document.body.classList.toggle("open");
 
-const pic = document.getElementById("pic");
+const pic = document.getElementById("crew-pic");
 const bio = document.getElementById("bio");
 const role = document.getElementById("role");
 const person1 = document.getElementById("person1");
 const person2 = document.getElementById("person2");
 const person3 = document.getElementById("person3");
 const person4 = document.getElementById("person4");
-const title = document.getElementById("name");
+const title = document.getElementById("crew-name");
 
 const crewNavItem = document.querySelector('.bar-li:nth-child(3)');
 crewNavItem.classList.add('active');

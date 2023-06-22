@@ -1,11 +1,11 @@
 const toggleMenu = () => document.body.classList.toggle("open");
 
-const pic = document.getElementById("pic");
-const para= document.getElementById("para");
+const pic = document.getElementById("tech-pic");
+const para= document.getElementById("tech-para");
 const one = document.getElementById("one");
 const two = document.getElementById("two");
 const three = document.getElementById("three");
-const title = document.getElementById("name");
+const title = document.getElementById("tech-name");
 
 const technologyNavItem = document.querySelector('.bar-li:nth-child(4)');
 technologyNavItem.classList.add('active');
