@@ -138,7 +138,7 @@ body {
   text-transform: uppercase;
 }
 
-#name {
+#crew-name {
   font-weight: 400;
   font-family: "Teko";
   font-size: 4rem;
@@ -267,7 +267,7 @@ body {
      justify-content: center;
   }
 
-  #name{
+  #crew-name{
     font-size: 3rem;
   }
 
@@ -364,7 +364,7 @@ body {
     margin-left: 1rem;
   }
 
-  #pic{
+  #crew-pic{
     width: 95%;
   }
 

@@ -159,7 +159,7 @@ body {
   padding-bottom: 5px;
 }
 
-#name {
+#destination-name {
   font-weight: 400;
   font-family: "Teko";
   font-size: 4rem;
@@ -169,7 +169,7 @@ body {
   text-transform: uppercase;
 }
 
-#para {
+#destination-para {
   font-weight: 400;
   font-family: "Teko";
   font-size: 1.1rem;
@@ -390,11 +390,11 @@ hr {
     margin-top: -450px;
   }
 
-  #pic {
+  #destination-pic {
     width: 90%;
   }
 
-  #para {
+  #destination-para {
     font-size: 1rem;
     width: 320px;
   }
