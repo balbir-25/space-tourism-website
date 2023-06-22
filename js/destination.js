@@ -1,12 +1,12 @@
 const toggleMenu = () => document.body.classList.toggle("open");
 
-const pic = document.getElementById("pic");
+const pic = document.getElementById("destination-pic");
 const moon = document.getElementById("moon");
 const mars = document.getElementById("mars");
 const euro = document.getElementById("euro");
 const titan = document.getElementById("titan");
-const title = document.getElementById("name");
-const para = document.getElementById("para");
+const title = document.getElementById("destination-name");
+const para = document.getElementById("destination-para");
 const distance = document.getElementById("distance");
 const time = document.getElementById("time");
 
